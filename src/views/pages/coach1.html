@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coach 1 - EduPlataforma</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="/js/config/tailwind-config.js"></script>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body class="bg-white">
+    <!-- Navegación -->
+    <div id="navbar"></div>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-crimson-600 to-crimson-800 text-white py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
+                    Coach 1: Desarrollo Personal
+                </h1>
+                <p class="text-xl md:text-2xl text-crimson-100">
+                    Especialista en crecimiento personal y liderazgo
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contenido Principal -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <!-- Perfil del Coach -->
+                <div class="bg-crimson-50 rounded-lg p-8 mb-12 shadow-lg">
+                    <div class="flex flex-col md:flex-row items-center gap-8">
+                        <div class="w-48 h-48 bg-crimson-700 rounded-full flex items-center justify-center">
+                            <svg class="w-24 h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                            </svg>
+                        </div>
+                        <div class="flex-1 text-center md:text-left">
+                            <h2 class="text-3xl font-bold text-crimson-800 mb-4">María González</h2>
+                            <p class="text-gray-700 text-lg mb-4">
+                                Coach certificada con más de 10 años de experiencia en desarrollo personal y liderazgo empresarial.
+                            </p>
+                            <div class="flex flex-wrap gap-2 justify-center md:justify-start">
+                                <span class="bg-crimson-700 text-white px-4 py-2 rounded-full text-sm">Liderazgo</span>
+                                <span class="bg-crimson-700 text-white px-4 py-2 rounded-full text-sm">Motivación</span>
+                                <span class="bg-crimson-700 text-white px-4 py-2 rounded-full text-sm">Productividad</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Áreas de Especialización -->
+                <div class="mb-12">
+                    <h3 class="text-3xl font-bold text-crimson-800 mb-6">Áreas de Especialización</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-white border-2 border-crimson-200 rounded-lg p-6 hover:shadow-xl transition">
+                            <h4 class="text-xl font-bold text-crimson-700 mb-3">Liderazgo Transformacional</h4>
+                            <p class="text-gray-600">Desarrolla habilidades para inspirar y guiar equipos hacia el éxito.</p>
+                        </div>
+                        <div class="bg-white border-2 border-crimson-200 rounded-lg p-6 hover:shadow-xl transition">
+                            <h4 class="text-xl font-bold text-crimson-700 mb-3">Inteligencia Emocional</h4>
+                            <p class="text-gray-600">Aprende a gestionar tus emociones y mejorar tus relaciones interpersonales.</p>
+                        </div>
+                        <div class="bg-white border-2 border-crimson-200 rounded-lg p-6 hover:shadow-xl transition">
+                            <h4 class="text-xl font-bold text-crimson-700 mb-3">Gestión del Tiempo</h4>
+                            <p class="text-gray-600">Optimiza tu productividad y alcanza tus objetivos de manera eficiente.</p>
+                        </div>
+                        <div class="bg-white border-2 border-crimson-200 rounded-lg p-6 hover:shadow-xl transition">
+                            <h4 class="text-xl font-bold text-crimson-700 mb-3">Comunicación Efectiva</h4>
+                            <p class="text-gray-600">Mejora tu capacidad de expresión y conexión con los demás.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Próximas Sesiones -->
+                <div class="bg-crimson-50 rounded-lg p-8">
+                    <h3 class="text-3xl font-bold text-crimson-800 mb-6">Próximas Sesiones</h3>
+                    <div class="space-y-4">
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="flex justify-between items-start mb-2">
+                                <h4 class="text-xl font-bold text-crimson-700">Taller de Liderazgo</h4>
+                                <span class="bg-crimson-700 text-white px-3 py-1 rounded-full text-sm">Disponible</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">Fecha: 15 de Octubre, 2025 - 10:00 AM</p>
+                            <p class="text-gray-600">Duración: 2 horas</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <div class="flex justify-between items-start mb-2">
+                                <h4 class="text-xl font-bold text-crimson-700">Sesión Individual de Coaching</h4>
+                                <span class="bg-crimson-700 text-white px-3 py-1 rounded-full text-sm">Disponible</span>
+                            </div>
+                            <p class="text-gray-600 mb-2">Fecha: A coordinar</p>
+                            <p class="text-gray-600">Duración: 1 hora</p>
+                        </div>
+                    </div>
+                    <button class="w-full mt-6 bg-crimson-700 text-white py-3 rounded-lg font-semibold hover:bg-crimson-800 transition transform hover:scale-105">
+                        Agendar Sesión
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div id="footer"></div>
+
+    <script src="/js/utils/component-loader.js"></script>
+    <script src="/js/pages/coach.js"></script>
+</body>
+</html>
