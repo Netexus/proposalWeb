@@ -1,13 +1,13 @@
 {
-  "name": "educational-web",
+  "name": "web-template",
   "version": "1.0.0",
-  "description": "Educational web page with crimson red and white design",
+  "description": "Plantilla web moderna con diseño rojo carmesí y blanco - Template for web projects",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": ["education", "web", "nodejs"],
+  "keywords": ["template", "web", "nodejs", "express", "tailwind"],
   "author": "",
   "license": "ISC",
   "dependencies": {
