@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - EduPlataforma</title>
+    <!-- PERSONALIZAR: Título de la página -->
+    <title>Inicio - [NOMBRE DEL SITIO]</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="/js/config/tailwind-config.js"></script>
     <link rel="stylesheet" href="/css/main.css">
@@ -12,49 +13,57 @@
     <!-- Navegación -->
     <div id="navbar"></div>
 
-    <!-- Hero Section -->
+    <!-- PLANTILLA: Hero Section - Personaliza el título y descripción principal -->
     <section class="bg-gradient-to-br from-crimson-600 to-crimson-800 text-white py-20">
         <div class="container mx-auto px-6 text-center">
+            <!-- PERSONALIZAR: Título principal -->
             <h1 class="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
-                Aprende Sin Límites
+                [TÍTULO PRINCIPAL]
             </h1>
+            <!-- PERSONALIZAR: Descripción/Subtítulo -->
             <p class="text-xl md:text-2xl mb-8 text-crimson-100">
-                Descubre cursos de calidad diseñados para tu crecimiento personal y profesional
+                [DESCRIPCIÓN O SUBTÍTULO DE TU SITIO]
             </p>
+            <!-- PERSONALIZAR: Texto del botón de llamado a la acción -->
             <button class="bg-white text-crimson-700 px-8 py-3 rounded-full font-semibold hover:bg-crimson-50 transition transform hover:scale-105 shadow-lg">
-                Comenzar Ahora
+                [TEXTO DEL BOTÓN]
             </button>
         </div>
     </section>
 
-    <!-- Estadísticas -->
+    <!-- PLANTILLA: Estadísticas - Personaliza los números y descripciones -->
     <section class="py-12 bg-crimson-50">
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <!-- PERSONALIZAR: Estadística 1 -->
                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-                    <div class="text-4xl font-bold text-crimson-700 mb-2">500+</div>
-                    <div class="text-gray-600">Cursos Disponibles</div>
+                    <div class="text-4xl font-bold text-crimson-700 mb-2">[NÚMERO]</div>
+                    <div class="text-gray-600">[DESCRIPCIÓN]</div>
                 </div>
+                <!-- PERSONALIZAR: Estadística 2 -->
                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-                    <div class="text-4xl font-bold text-crimson-700 mb-2">10,000+</div>
-                    <div class="text-gray-600">Estudiantes Activos</div>
+                    <div class="text-4xl font-bold text-crimson-700 mb-2">[NÚMERO]</div>
+                    <div class="text-gray-600">[DESCRIPCIÓN]</div>
                 </div>
+                <!-- PERSONALIZAR: Estadística 3 -->
                 <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition">
-                    <div class="text-4xl font-bold text-crimson-700 mb-2">98%</div>
-                    <div class="text-gray-600">Satisfacción</div>
+                    <div class="text-4xl font-bold text-crimson-700 mb-2">[NÚMERO]</div>
+                    <div class="text-gray-600">[DESCRIPCIÓN]</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Cursos Destacados -->
+    <!-- PLANTILLA: Sección de Contenido Dinámico - Personaliza el título -->
     <section class="py-16 bg-white">
         <div class="container mx-auto px-6">
+            <!-- PERSONALIZAR: Título de la sección -->
             <h2 class="text-4xl font-bold text-center text-crimson-800 mb-12">
-                Cursos Destacados
+                [TÍTULO DE LA SECCIÓN]
             </h2>
+            <!-- Contenedor para contenido dinámico (se carga desde JS) -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="coursesContainer">
-                <!-- Los cursos se cargarán dinámicamente -->
+                <!-- El contenido se cargará dinámicamente desde /js/data/courses.js -->
             </div>
         </div>
     </section>
