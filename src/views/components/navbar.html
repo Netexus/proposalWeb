@@ -1,17 +1,21 @@
+<!-- PLANTILLA: Navbar - Personaliza el nombre del sitio y los enlaces de navegación -->
 <nav class="bg-crimson-700 text-white shadow-lg sticky top-0 z-50">
     <div class="container mx-auto px-6 py-4">
         <div class="flex items-center justify-between">
             <div class="flex items-center space-x-2">
+                <!-- PERSONALIZAR: Cambia el ícono SVG según tu proyecto -->
                 <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
                 </svg>
-                <span class="text-2xl font-bold">EduPlataforma</span>
+                <!-- PERSONALIZAR: Nombre de tu sitio web -->
+                <span class="text-2xl font-bold">[NOMBRE DEL SITIO]</span>
             </div>
+            <!-- PERSONALIZAR: Enlaces de navegación -->
             <div class="hidden md:flex space-x-6">
                 <a href="/" class="hover:text-crimson-200 transition">Inicio</a>
-                <a href="/coach1" class="hover:text-crimson-200 transition">Coach 1</a>
-                <a href="/coach2" class="hover:text-crimson-200 transition">Coach 2</a>
-                <a href="/coach3" class="hover:text-crimson-200 transition">Coach 3</a>
+                <a href="/page1" class="hover:text-crimson-200 transition">Página 1</a>
+                <a href="/page2" class="hover:text-crimson-200 transition">Página 2</a>
+                <a href="/page3" class="hover:text-crimson-200 transition">Página 3</a>
             </div>
             <button id="menuBtn" class="md:hidden">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -22,9 +26,9 @@
         <!-- Menú móvil -->
         <div id="mobileMenu" class="hidden md:hidden mt-4 space-y-2">
             <a href="/" class="block hover:text-crimson-200 transition">Inicio</a>
-            <a href="/coach1" class="block hover:text-crimson-200 transition">Coach 1</a>
-            <a href="/coach2" class="block hover:text-crimson-200 transition">Coach 2</a>
-            <a href="/coach3" class="block hover:text-crimson-200 transition">Coach 3</a>
+            <a href="/page1" class="block hover:text-crimson-200 transition">Página 1</a>
+            <a href="/page2" class="block hover:text-crimson-200 transition">Página 2</a>
+            <a href="/page3" class="block hover:text-crimson-200 transition">Página 3</a>
         </div>
     </div>
 </nav>
